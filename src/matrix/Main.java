@@ -9,6 +9,7 @@ public class Main {
 		Matrix mat1 = Matrix.getRandFillMatrix(4, 2);
 		Matrix mat2 = Matrix.getRandFillMatrix(2, 3);
 		System.out.println(mat1.toString());
+		System.out.println(mat2.toString());
 		//行列の内積
 		mat1.dot(mat2);
 		System.out.println(mat1);
